@@ -4,6 +4,7 @@
   
   let selectedForm = $state(formA);
   let submittedData = $state<Record<string, string> | null>(null);
+  console.log('Selected Form:', selectedForm);
 
   function handleFormSubmit(data: Record<string, string>) {
     submittedData = data;
@@ -34,10 +35,6 @@
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Form Submitted!</h2>
         <p class="text-gray-600 mb-6">Thank you for providing your information.</p>
         
-        <div class="text-left bg-gray-50 p-4 rounded-lg mb-6">
-          <h3 class="font-semibold mb-2">Submitted Data:</h3>
-          <pre class="text-sm text-gray-700 whitespace-pre-wrap">{JSON.stringify(submittedData, null, 2)}</pre>
-        </div>
         
         <button
           onclick={resetForm}
