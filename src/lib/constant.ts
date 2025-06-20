@@ -1,0 +1,35 @@
+export const CHOICES = {
+  creditScore: [
+    { id: "PLHaYHnKsmgL", label: "Poor" },
+    { id: "N17XP2CT5d1Z", label: "Average" },
+    { id: "w3vDzM5c8rdT", label: "Good" },
+    { id: "gGiWjnWna3RQ", label: "Excellent" },
+  ],
+  primaryUse: [
+    { id: "uxV4zNu6b9CZDwyp", label: "Commute" },
+    { id: "uxV41Y7gMxhePUIz", label: "Pleasure" },
+    { id: "uxV4jb8kS70tXdyD", label: "Business" },
+    { id: "uxV41esm6UOXbiz7", label: "Farm" },
+  ],
+  annualMileage: [
+    { id: "2X0eILEy", label: "Less than 5,000" },
+    { id: "IWHhHKFb", label: "5,000 - 10,000" },
+    { id: "UnYZ37I4b", label: "10,000 - 15,000" },
+    { id: "vUlm8c2D", label: "15,000 - 20,000" },
+    { id: "OMA45wc", label: "More than 20,000" },
+  ],
+  carBrands: [
+    { id: "uxV47cEaKsWNEfZO", label: "Buick" },
+    { id: "uxV4RRP05uCp0kO3", label: "Chevrolet" },
+    { id: "uxV4V9TSWzXZyD17", label: "Chrysler" },
+    { id: "uxV4rzLPKdCiS2iA", label: "Dodge" },
+    { id: "uxV4lVjfn2iTC26P", label: "Ford" },
+    { id: "uxV4JXwdoYSfyDZL", label: "GMC" },
+    { id: "uxV4rzPkRlU8dbfI", label: "Honda" },
+    { id: "uxV4FHSG3MacnQJo", label: "Hyundai" },
+    { id: "uxV4Xh2f6hg0J0xB", label: "Jeep" },
+    { id: "uxV44CcrrEtnKIBh", label: "Kia" },
+    { id: "uxV4UP2gZyuSDUo6", label: "Nissan" },
+    { id: "uxV4980hrGsMon8M", label: "Toyota" },
+  ],
+}
