@@ -93,7 +93,7 @@
     }
   }
 
-  // Initialize form data with default values
+ 
   $effect(() => {
     form.fields.forEach(field => {
       if (field.default && !formData[field.id]) {
@@ -166,4 +166,5 @@
       {isLastStep ? 'Submit' : 'Next'}
     </button>
   </div>
+  
 </div>

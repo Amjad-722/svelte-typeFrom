@@ -18,7 +18,7 @@
 
 <main class="min-h-screen bg-gray-50">
   {#if !submittedData}
-    <!-- Form Selection -->
+  
     
 
     <!-- Dynamic Form -->
