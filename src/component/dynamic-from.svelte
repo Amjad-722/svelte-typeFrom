@@ -125,7 +125,6 @@
     {/if}
   </div> -->
 
-  <!-- Current Question -->
   <div class="flex-grow">
     <div class="mb-8">
       <h2 class="text-2xl font-bold text-gray-900 mb-6 leading-tight">

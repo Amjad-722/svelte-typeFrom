@@ -4,7 +4,6 @@
   
   let selectedForm = $state(formA);
   let submittedData = $state<Record<string, string> | null>(null);
-  console.log('Selected Form:', selectedForm);
 
   function handleFormSubmit(data: Record<string, string>) {
     submittedData = data;
