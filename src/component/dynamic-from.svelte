@@ -104,6 +104,8 @@
 </script>
 
 <div class="flex flex-col min-h-screen max-w-2xl mx-auto p-6 bg-white" role="form">
+    <h1 class="text-3xl font-bold text-gray-900 mb-4">{form.title}</h1>
+
   <!-- Progress Bar -->
   <div class="w-full h-2 bg-gray-200 rounded-full mb-8">
     <div 
@@ -112,8 +114,8 @@
     ></div>
   </div>
 
-  <!-- Form Header -->
-  <div class="mb-8">
+  <!-- Form Header -->  
+  <!-- <div class="mb-8">
     {#if form.caption}
       <p class="text-blue-600 font-medium mb-2">{form.caption}</p>
     {/if}
@@ -121,7 +123,7 @@
     {#if form.description}
       <p class="text-gray-600">{form.description}</p>
     {/if}
-  </div>
+  </div> -->
 
   <!-- Current Question -->
   <div class="flex-grow">
