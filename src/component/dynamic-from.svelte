@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { Form, Field } from '$lib/types';
 	import FieldRender from './field-render.svelte';
+	import GoogleTranslate from './google-translate.svelte';
   
   interface Props {
     form: Form;
@@ -102,7 +103,8 @@
     });
   });
 </script>
-
+<!-- Google Translate Widget -->
+<GoogleTranslate/>
 <div class="flex flex-col min-h-screen max-w-2xl mx-auto p-6 bg-white" role="form">
     <h1 class="text-3xl font-bold text-gray-900 mb-4">{form.title}</h1>
 
