@@ -130,7 +130,7 @@
   ];
 </script>
 
-<div class="fixed top-6 left-6 z-50">
+<div class="fixed top-8 left-8 z-50">
   <div class="relative">
     <button
       on:click={toggleTranslate}
